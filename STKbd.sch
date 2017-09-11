@@ -8732,66 +8732,6 @@ low-leakage double diode</description>
 <label x="-55.88" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RS1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PD2(INT0)"/>
-<label x="-55.88" y="15.24" size="1.778" layer="95"/>
-<wire x1="-60.96" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="15.24" x2="-20.32" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="OC9" gate="A" pin="COL"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="-99.06" x2="2.54" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-99.06" x2="-20.32" y2="-99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="RS2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PD3(INT1)"/>
-<label x="-55.88" y="12.7" size="1.778" layer="95"/>
-<wire x1="-22.86" y1="-127" x2="-22.86" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="12.7" x2="-60.96" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="OC10" gate="A" pin="COL"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="-124.46" x2="2.54" y2="-127" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-127" x2="-22.86" y2="-127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="K2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
-<label x="-55.88" y="7.62" size="1.778" layer="95"/>
-<wire x1="-12.7" y1="7.62" x2="-60.96" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="OC6" gate="A" pin="COL"/>
-<wire x1="2.54" y1="-15.24" x2="2.54" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="-17.78" x2="2.54" y2="-17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="K3" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PD6(AIN0)"/>
-<label x="-55.88" y="5.08" size="1.778" layer="95"/>
-<wire x1="-60.96" y1="5.08" x2="-15.24" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="OC7" gate="A" pin="COL"/>
-<wire x1="2.54" y1="-40.64" x2="2.54" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="-43.18" x2="2.54" y2="-43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="K4" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PD7(AIN1)"/>
-<label x="-55.88" y="2.54" size="1.778" layer="95"/>
-<wire x1="-17.78" y1="-71.12" x2="-17.78" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="2.54" x2="-60.96" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="OC8" gate="A" pin="COL"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="-68.58" x2="2.54" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-71.12" x2="-17.78" y2="-71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PB0" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB0(ICP)"/>
@@ -9145,16 +9085,18 @@ low-leakage double diode</description>
 <pinref part="U$1" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="K1" class="0">
+<net name="RS2" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD4(XCK/T0)"/>
-<wire x1="-60.96" y1="10.16" x2="2.54" y2="10.16" width="0.1524" layer="91"/>
-<label x="-55.88" y="10.16" size="1.778" layer="95"/>
 <pinref part="OC5" gate="A" pin="COL"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="PD2(INT0)"/>
+<wire x1="-60.96" y1="15.24" x2="-10.16" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="10.16" x2="2.54" y2="10.16" width="0.1524" layer="91"/>
+<label x="-17.78" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S1" class="0">
+<net name="S44" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="83.82" x2="-27.94" y2="83.82" width="0.1524" layer="91"/>
@@ -9167,7 +9109,7 @@ low-leakage double diode</description>
 <label x="-58.42" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S2" class="0">
+<net name="S3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="-60.96" y1="40.64" x2="-50.8" y2="40.64" width="0.1524" layer="91"/>
@@ -9180,7 +9122,7 @@ low-leakage double diode</description>
 <label x="-58.42" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S3" class="0">
+<net name="S2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC2(ADC2)"/>
 <wire x1="-48.26" y1="53.34" x2="-48.26" y2="38.1" width="0.1524" layer="91"/>
@@ -9194,7 +9136,7 @@ low-leakage double diode</description>
 <label x="-58.42" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S4" class="0">
+<net name="S1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC3(ADC3)"/>
 <wire x1="-60.96" y1="35.56" x2="-45.72" y2="35.56" width="0.1524" layer="91"/>
@@ -9295,6 +9237,66 @@ low-leakage double diode</description>
 <wire x1="35.56" y1="111.76" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="OC1" gate="A" pin="EMIT"/>
 <wire x1="35.56" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="K2" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="OC9" gate="A" pin="COL"/>
+<wire x1="2.54" y1="-99.06" x2="2.54" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PD6(AIN0)"/>
+<wire x1="-60.96" y1="5.08" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-99.06" x2="2.54" y2="-99.06" width="0.1524" layer="91"/>
+<label x="-20.32" y="-93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RS1" class="0">
+<segment>
+<pinref part="OC6" gate="A" pin="COL"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="-60.96" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-17.78" x2="2.54" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-12.7" y="-7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="K4" class="0">
+<segment>
+<pinref part="OC7" gate="A" pin="COL"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="-40.64" x2="2.54" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PD4(XCK/T0)"/>
+<wire x1="-60.96" y1="10.16" x2="-15.24" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-43.18" x2="2.54" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-15.24" y="-35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="K3" class="0">
+<segment>
+<pinref part="OC8" gate="A" pin="COL"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="-68.58" x2="2.54" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
+<wire x1="-60.96" y1="7.62" x2="-17.78" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="7.62" x2="-17.78" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-71.12" x2="2.54" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-17.78" y="-60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="K1" class="0">
+<segment>
+<pinref part="OC10" gate="A" pin="COL"/>
+<wire x1="2.54" y1="-127" x2="-22.86" y2="-127" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="-124.46" x2="2.54" y2="-127" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PD7(AIN1)"/>
+<wire x1="-60.96" y1="2.54" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="2.54" x2="-22.86" y2="-127" width="0.1524" layer="91"/>
+<label x="-22.86" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
