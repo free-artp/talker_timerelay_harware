@@ -7996,17 +7996,17 @@ Single output voltage</description>
 <wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<pin name="+VIN@1" x="-17.78" y="7.62" visible="pin" length="middle"/>
-<pin name="-VIN@2" x="-17.78" y="-7.62" visible="pin" length="middle"/>
-<pin name="+VOUT@1" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="-V0UT@1" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="+VIN@2" x="-17.78" y="5.08" visible="pin" length="middle"/>
-<pin name="-VIN@1" x="-17.78" y="-5.08" visible="pin" length="middle"/>
-<pin name="NO_CON" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="+VIN@1" x="-17.78" y="7.62" length="middle"/>
+<pin name="-VIN@2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="+VOUT@1" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="-V0UT@1" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="+VIN@2" x="-17.78" y="5.08" length="middle"/>
+<pin name="-VIN@1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="NO_CON" x="-17.78" y="0" length="middle"/>
 <text x="-2.54" y="15.24" size="1.27" layer="94">&gt;NAME</text>
 <text x="-2.54" y="12.7" size="1.27" layer="94">&gt;VALUE</text>
-<pin name="+VOUT@2" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="-V0UT@2" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="+VOUT@2" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="-V0UT@2" x="17.78" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9294,7 +9294,7 @@ low-leakage double diode</description>
 <label x="-17.78" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="S44" class="0">
+<net name="S4" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="83.82" x2="-27.94" y2="83.82" width="0.1524" layer="91"/>
